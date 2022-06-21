@@ -1,0 +1,45 @@
+@media screen and  (max-width: 1210px){
+    nav{
+        flex-direction: column;
+    }
+    nav div{
+        width: 100%;
+        text-align: center;
+    } 
+}
+@media screen and (max-width: 620px) and (orientation:portrait){
+    body{
+        font-size: 1rem;
+    }
+    nav{
+        padding: 0;
+    }
+   
+    ul{        
+        flex-direction: column; 
+        justify-content: space-between;       
+        width: 100%;        
+    }
+    li{
+        height: 33%;
+        margin: 0;
+        width: 100%;   
+        text-align: center; 
+        padding: 0.5rem;   
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    div.links{      
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    p#subtitle{
+        font-size: 0.675rem;
+    }
+    div.header{
+        text-align: center;
+    }
+
+}

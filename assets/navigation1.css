@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold; 
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    padding: 2em;
+    justify-content: baseline;
+    justify-content: space-between;
+}
+h1{
+    color: #143774;
+    font-family: 'Lora',serif;
+    margin-bottom: 0;
+    font-weight: bolder; 
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+}
+li{
+    margin: 0 1em;
+    padding: 1em 0;
+}
+a{
+    text-decoration: none;
+    color: #707070;
+}
+a:active,a:focus{
+    color: #1792d2;
+    border-bottom:2px solid #1792d2;
+}
+a:hover{
+    color: #1792d2;
+}
+div.header,div.links{
+    margin: auto;
+}
+div.header>p{
+    margin-top: 0;
+    color: #1792d2;
+}
